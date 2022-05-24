@@ -1,0 +1,78 @@
+@import "variables";
+
+@mixin Header(){
+  height: 90px;
+  background: $color;
+  border-bottom: 2px #2e2f35 solid;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  .name{
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+    size: A4;
+    font-size: 40px;
+  }
+}
+@mixin Login($float: right){
+  float: $float;
+  padding: 25px;
+  a{
+    margin: 10px;
+    text-decoration: none;
+    color: #121b75;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    border: 2px #121b75 solid;
+    border-radius: 5px;
+  }
+  a:hover{
+    font-size: 23px;
+    color: lighten(#121b75, 20%);
+  }
+}
+@mixin Main(){
+  padding: 0;
+  margin: 0;
+}
+@mixin Footer(){
+  background-color: $color;
+  border-top: 2px #2e2f35 solid;
+}
+@mixin Contact(){
+  font-family: Georgia, serif;
+  font-size: 20px;
+  padding: 5px;
+}
+@mixin Phone(){
+  font-family: Georgia, serif;
+  font-size: 17px;
+  padding: 5px;
+}
+@mixin Product(){
+  margin-left: 15%;
+  width: 200px;
+  height: 300px;
+  border: 3px #121b75 solid;
+  border-radius: 10px;
+  > img{
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+  }
+  p{
+    font-family: Georgia, serif;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  button {
+    margin: 4px;
+    border-radius: 7px;
+    color: #070707;
+    background-color: #40405f;
+    font-size: 15px;
+    width: 100px;
+    font-family: Georgia, serif;
+  }
+}

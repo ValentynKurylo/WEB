@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style/css/registration.css">
+</head>
+<header>
+    <div class="Home">
+        <a href="home.html">Home</a>
+         <a href="order.html">Order</a>
+    </div>
+    <center>
+        <div class="name">KURYLO-Pharmacy</div>
+    </center>
+    <div class="Login">
+        <a href="login.html">Sign in</a>
+        <a href="registration.html">Registration</a></div>
+</header>
+<body>
+<div class="Main">
+    <center>
+        <div class="space">Registration</div>
+    </center>
+    <center>
+        <div class="enter">
+            <form method="POST" onSubmit={login}>
+                <input name="username" type="text" placeholder="Enter your username"/><br/>
+                <input name="email" type="text" placeholder="Enter your email"/><br/>
+                <input name="password" type="text" placeholder="Enter your password"/><br/>
+                <input name="ConfirmPassword" type="text" placeholder="Confirm your password"/><br/>
+                <button type='submit'>register</button>
+                <p>if you have already registered</p>
+                <button type='submit'>
+                    <a href="login.html">Sing in</a>
+                </button>
+            </form>
+        </div>
+    </center>
+
+</div>
+</body>
+<footer>
+    <center>
+        <div class="Contact">Our Contacts
+            <br/> <hr/>
+            <div class="Phone">+3809366666<br/>+3806333333</div>
+        </div>
+    </center>
+</footer>
+</html>

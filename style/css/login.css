@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 90px;
+  background: #b7cbc5;
+  border-bottom: 2px #2e2f35 solid;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+header .name {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  margin-top: 10px;
+  size: A4;
+  font-size: 40px;
+}
+
+.Login {
+  float: right;
+  padding: 25px;
+}
+.Login a {
+  margin: 10px;
+  text-decoration: none;
+  color: #121b75;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  border: 2px #121b75 solid;
+  border-radius: 5px;
+}
+.Login a:hover {
+  font-size: 23px;
+  color: #202fcd;
+}
+
+.Home {
+  float: left;
+  padding: 25px;
+}
+.Home a {
+  margin: 10px;
+  text-decoration: none;
+  color: #121b75;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  border: 2px #121b75 solid;
+  border-radius: 5px;
+}
+.Home a:hover {
+  font-size: 23px;
+  color: #202fcd;
+}
+
+.Main {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 550px;
+  background-image: url("https://thumbs.dreamstime.com/b/beautiful-soft-blue-abstract-business-graphic-wave-background-155530835.jpg");
+}
+.Main .space {
+  padding-top: 40px;
+  height: 100px;
+  size: A4;
+  font-size: 40px;
+}
+.Main .enter {
+  margin-top: 20px;
+  width: 400px;
+  height: 300px;
+  border: 6px #40405f solid;
+  border-radius: 20px;
+  background-color: #b7cbc5;
+}
+.Main form {
+  margin-top: 50px;
+  background-color: #b7cbc5;
+}
+.Main input {
+  border-radius: 7px;
+  font-size: 20px;
+  margin: 5px;
+  font-family: Georgia, serif;
+}
+.Main button {
+  margin: 20px;
+  border-radius: 7px;
+  color: #070707;
+  background-color: #40405f;
+  font-size: 20px;
+  width: 150px;
+  font-family: Georgia, serif;
+}
+.Main button a {
+  margin: 10px;
+  text-decoration: none;
+  color: #000000;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #b7cbc5;
+  border-top: 2px #2e2f35 solid;
+}
+
+.Contact {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.Phone {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  padding: 5px;
+}

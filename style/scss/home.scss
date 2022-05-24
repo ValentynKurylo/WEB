@@ -1,0 +1,48 @@
+@import "mixins";
+*{
+  @include Main()
+}
+
+header{
+   @include Header()
+}
+.Home{
+  @include Login($float: left)
+}
+.Wrap{
+  background: #969bbe;
+  size: A4;
+  font-size: 40px;
+}
+.Main{
+   width: 100%;
+   height: 500px;
+   background-image: url("https://media.capc.org/images/AdobeStock_274131656.original.original.jpg");
+   margin: 0;
+}
+.Login{
+  @include Login($float: right)
+}
+footer{
+  @include Footer()
+}
+.Contact{
+  @include Contact()
+}
+.Phone{
+  @include Phone()
+}
+.Product{
+  @include Product()
+}
+.Box{
+  width: 100%;
+  display: inline-flex;
+  a {
+      margin: 10px;
+      text-decoration: none;
+      color: #000000;
+      font-family: Georgia, serif;
+      font-size: 15px;
+    }
+}

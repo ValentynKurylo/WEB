@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 90px;
+  background: #b7cbc5;
+  border-bottom: 2px #2e2f35 solid;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+header .name {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  margin-top: 10px;
+  size: A4;
+  font-size: 40px;
+}
+
+.Home {
+  float: left;
+  padding: 25px;
+}
+.Home a {
+  margin: 10px;
+  text-decoration: none;
+  color: #121b75;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  border: 2px #121b75 solid;
+  border-radius: 5px;
+}
+.Home a:hover {
+  font-size: 23px;
+  color: #202fcd;
+}
+
+.Wrap {
+  background: #969bbe;
+  size: A4;
+  font-size: 40px;
+}
+
+.Main {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://media.capc.org/images/AdobeStock_274131656.original.original.jpg");
+  margin: 0;
+}
+
+.Login {
+  float: right;
+  padding: 25px;
+}
+.Login a {
+  margin: 10px;
+  text-decoration: none;
+  color: #121b75;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  border: 2px #121b75 solid;
+  border-radius: 5px;
+}
+.Login a:hover {
+  font-size: 23px;
+  color: #202fcd;
+}
+
+footer {
+  background-color: #b7cbc5;
+  border-top: 2px #2e2f35 solid;
+}
+
+.Contact {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.Phone {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.Product {
+  margin-left: 15%;
+  width: 200px;
+  height: 300px;
+  border: 3px #121b75 solid;
+  border-radius: 10px;
+}
+.Product > img {
+  margin-top: 5px;
+  width: 100%;
+  height: 200px;
+}
+.Product p {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.Product button {
+  margin: 4px;
+  border-radius: 7px;
+  color: #070707;
+  background-color: #40405f;
+  font-size: 15px;
+  width: 100px;
+  font-family: Georgia, serif;
+}
+
+.Box {
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.Box a {
+  margin: 10px;
+  text-decoration: none;
+  color: #000000;
+  font-family: Georgia, serif;
+  font-size: 15px;
+}

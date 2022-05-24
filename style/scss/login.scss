@@ -1,0 +1,73 @@
+@import "mixins";
+@import "variables";
+*{
+  @include Main()
+}
+header{
+   @include Header()
+}
+.Login{
+  @include Login()
+}
+.Home{
+  @include Login($float: left)
+}
+.Main {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 550px;
+  background-image: url("https://thumbs.dreamstime.com/b/beautiful-soft-blue-abstract-business-graphic-wave-background-155530835.jpg");
+  .space{
+    padding-top: 40px;
+    height: 100px;
+    size: A4;
+    font-size: 40px;
+  }
+  .enter {
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    border: 6px #40405f solid;
+    border-radius: 20px;
+    background-color: $color;
+  }
+
+  form {
+    margin-top: 50px;
+    background-color: $color;
+  }
+
+  input {
+    border-radius: 7px;
+    font-size: 20px;
+    margin: 5px;
+    font-family: Georgia, serif;
+  }
+
+  button {
+    margin: 20px;
+    border-radius: 7px;
+    color: #070707;
+    background-color: #40405f;
+    font-size: 20px;
+    width: 150px;
+    font-family: Georgia, serif;
+
+    a {
+      margin: 10px;
+      text-decoration: none;
+      color: #000000;
+      font-family: Georgia, serif;
+      font-size: 20px;
+    }
+  }
+}
+footer{
+  @include Footer()
+}
+.Contact{
+  @include Contact()
+}
+.Phone{
+  @include Phone()
+}
