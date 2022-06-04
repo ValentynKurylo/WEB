@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Registration</title>
     <link rel="stylesheet" href="style/css/registration.css">
+    <script src="scripts/registration.js"></script>
 </head>
 <header>
     <div class="Home">
@@ -24,11 +25,11 @@
     </center>
     <center>
         <div class="enter">
-            <form method="POST" onSubmit={login}>
-                <input name="username" type="text" placeholder="Enter your username"/><br/>
-                <input name="email" type="text" placeholder="Enter your email"/><br/>
-                <input name="password" type="text" placeholder="Enter your password"/><br/>
-                <input name="ConfirmPassword" type="text" placeholder="Confirm your password"/><br/>
+            <form method="POST" onsubmit="regstration(event)">
+                <input id="username" name="username" type="text" placeholder="Enter your username"/><br/>
+                <input id="email" name="email" type="text" placeholder="Enter your email"/><br/>
+                <input id="password" name="password" type="password" placeholder="Enter your password"/><br/>
+                <input id="confirmPassword" name="ConfirmPassword" type="password" placeholder="Confirm your password"/><br/>
                 <button type='submit'>register</button>
                 <p>if you have already registered</p>
                 <button type='submit'>

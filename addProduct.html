@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Add Product</title>
     <link rel="stylesheet" href="style/css/addProduct.css">
+    <script src="scripts/addProduct.js"></script>
 </head>
 <header>
     <div class="Home">
@@ -24,12 +25,12 @@
     </center>
     <center>
         <div class="enter">
-            <form method="POST" onSubmit={login}>
-                <input name="name" type="text" placeholder="Enter name of product"/><br/>
-                <input name="price" type="number" step="0.1" min="0" placeholder="Enter price"/><br/>
-                <input name="number" type="number" min="0" placeholder="Enter number"/><br/>
-                <input name="description" type="text"  placeholder="Enter description"/><br/>
-                <input name="img" type="file"  placeholder="Image"/><br/>
+            <form method="POST" onSubmit="addProduct(event)">
+                <input name="name" id="nameProduct" type="text" placeholder="Enter name of product"/><br/>
+                <input name="price" id="price" type="number" step="0.1" min="0" placeholder="Enter price"/><br/>
+                <input name="number" id="numberProduct" type="number" min="0" placeholder="Enter number"/><br/>
+                <input name="description" id="descriptionProduct" type="text"  placeholder="Enter description"/><br/>
+                <input name="img" id="imgProduct" type="text"  placeholder="Image"/><br/>
                 <button type='submit'>ADD</button>
             </form>
         </div>

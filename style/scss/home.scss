@@ -19,6 +19,8 @@ header{
    height: 500px;
    background-image: url("https://media.capc.org/images/AdobeStock_274131656.original.original.jpg");
    margin: 0;
+   flex: content-box;
+   overflow-y: scroll;
 }
 .Login{
   @include Login($float: right)
@@ -36,8 +38,10 @@ footer{
   @include Product()
 }
 .Box{
+  margin-bottom: 30px;
   width: 100%;
   display: inline-flex;
+  margin-top: 20px;
   a {
       margin: 10px;
       text-decoration: none;
@@ -45,4 +49,28 @@ footer{
       font-family: Georgia, serif;
       font-size: 15px;
     }
+  p{
+    border-bottom: 1px #837456 solid;
+    text-align: center;
+  }
+
+}
+.Exit1{
+  width: 300px;
+  height: 100px;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  padding: 5px;
+  background-color: #8d91bc;
+  border-radius: 20px;
+  border: 2px darkgray solid;
+  margin-top: 100px;
+}
+
+.demandDiv{
+  border: 2px black solid;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  margin: 30px;
+  padding: 5px;
 }

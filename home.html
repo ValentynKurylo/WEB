@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" href="style/css/home.css">
+    <script src="scripts/home.js"></script>
 </head>
+<body>
 <header>
-    <div class="Home">
+    <div class="Home" id="home">
         <a href="home.html">Home</a>
         <a href="order.html">Order</a>
     </div>
@@ -15,53 +17,14 @@
     </center>
     <div class="Login">
         <a href="login.html">Sign in</a>
+        <a href="exit.html">Exit</a>
         <a href="registration.html">Registration</a></div>
 </header>
-<body>
-<div class="Wrap"><center>Our products</center></div>
-<div class="Main">
-    <br/>
-    <div class="Box">
-        <div class="Product">
-            <img src="images/analgin-darnitsa-tabletki-poo-500-mg-10-shtuk-darnitsya-ff-mobile-400x400-75bb.jpg"
-                 alt="product">
-            <hr/>
-            <center>
-                <p>Analgin</p>
-                <hr/>
-                <p>Price - 20 grn</p>
-                <hr/>
-                <button><a href="product.html">Buy</a></button>
-            </center>
-        </div>
-        <div class="Product">
-            <img src="images/analgin-darnitsa-tabletki-poo-500-mg-10-shtuk-darnitsya-ff-mobile-400x400-75bb.jpg"
-                 alt="product">
-            <hr/>
-            <center>
-                <p>Analgin</p>
-                <hr/>
-                <p>Price - 20 grn</p>
-                <hr/>
-                <button><a href="product.html">Buy</a></button>
-            </center>
-        </div>
-        <div class="Product">
-            <img src="images/analgin-darnitsa-tabletki-poo-500-mg-10-shtuk-darnitsya-ff-mobile-400x400-75bb.jpg"
-                 alt="product">
-            <hr/>
-            <center>
-                <p>Analgin</p>
-                <hr/>
-                <p>Price - 20 grn</p>
-                <hr/>
-                <button><a href="product.html">Buy</a></button>
-            </center>
-        </div>
-    </div>
+<div class="Wrap" onclick="showProducts(event)"><center>Our products</center></div>
+<div class="Main" id="main">
+
 
 </div>
-</body>
 <footer>
     <center>
         <div class="Contact">Our Contacts
@@ -70,4 +33,6 @@
         </div>
     </center>
 </footer>
+</body>
+
 </html>

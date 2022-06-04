@@ -52,6 +52,10 @@ header .name {
   height: 500px;
   background-image: url("https://media.capc.org/images/AdobeStock_274131656.original.original.jpg");
   margin: 0;
+  -webkit-box-flex: content-box;
+      -ms-flex: content-box;
+          flex: content-box;
+  overflow-y: scroll;
 }
 
 .Login {
@@ -74,7 +78,8 @@ header .name {
 
 footer {
   background-color: #b7cbc5;
-  border-top: 2px #2e2f35 solid;
+  border-top: 2px #27282d solid;
+  display: block;
 }
 
 .Contact {
@@ -117,10 +122,12 @@ footer {
 }
 
 .Box {
+  margin-bottom: 30px;
   width: 100%;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  margin-top: 20px;
 }
 .Box a {
   margin: 10px;
@@ -128,4 +135,28 @@ footer {
   color: #000000;
   font-family: Georgia, serif;
   font-size: 15px;
+}
+.Box p {
+  border-bottom: 1px #837456 solid;
+  text-align: center;
+}
+
+.Exit1 {
+  width: 300px;
+  height: 100px;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  padding: 5px;
+  background-color: #8d91bc;
+  border-radius: 20px;
+  border: 2px darkgray solid;
+  margin-top: 100px;
+}
+
+.demandDiv {
+  border: 2px black solid;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  margin: 30px;
+  padding: 5px;
 }

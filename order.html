@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Order</title>
     <link rel="stylesheet" href="style/css/order.css">
+    <script src="scripts/demand.js"></script>
 </head>
 <header>
     <div class="Home">
@@ -24,10 +25,9 @@
     </center>
     <center>
         <div class="enter">
-            <form method="POST" onSubmit={login}>
-                <input name="name" type="text" placeholder="Enter name of product"/><br/>
-                <input name="number" type="number" min="0" placeholder="Enter number"/><br/>
-                <input name="message" type="text"  placeholder="Enter your message"/><br/>
+            <form method="POST" onSubmit="Demand(event)">
+                <input name="name" id="dName" type="text" placeholder="Enter name of product"/><br/>
+                <input name="message" id="message" type="text"  placeholder="Enter your message"/><br/>
                 <button type='submit'>order</button>
             </form>
         </div>

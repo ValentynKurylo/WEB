@@ -61,7 +61,8 @@ header .name {
 
 footer {
   background-color: #b7cbc5;
-  border-top: 2px #2e2f35 solid;
+  border-top: 2px #27282d solid;
+  display: block;
 }
 
 .Contact {
@@ -117,5 +118,5 @@ footer {
   -webkit-box-flex: content-box;
       -ms-flex: content-box;
           flex: content-box;
-  overflow: scroll;
+  overflow-y: scroll;
 }

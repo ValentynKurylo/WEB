@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="style/css/login.css">
+    <script src="scripts/login.js"></script>
 </head>
 <header>
     <div class="Home">
@@ -24,12 +25,12 @@
     </center>
     <center>
         <div class="enter">
-            <form method="POST" onSubmit={login}>
-                <input name="username" type="text" placeholder="Enter your email"/><br/>
-                <input name="password" type="text" placeholder="Enter your password"/><br/>
+            <form method="POST" onsubmit="login1(event)">
+                <input id="logEmail" name="login" type="text" placeholder="Enter your email"/><br/>
+                <input id="logPassword" name="password" type="password" placeholder="Enter your password"/><br/>
                 <button type='submit'>Enter</button>
                 <p>If you are not yet registered</p>
-                <button type='submit'>
+                <button>
                     <a href="registration.html">Registration</a>
                 </button>
             </form>
